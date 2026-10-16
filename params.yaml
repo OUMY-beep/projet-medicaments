@@ -1,0 +1,31 @@
+preparation:
+  test_size: 0.25
+  random_state: 42
+
+entrainement:
+  algorithme: hist_gradient_boosting
+  hyperparametres:
+    hist_gradient_boosting:
+      max_iter: 200
+      learning_rate: 0.1
+      random_state: 42
+    regression_logistique:
+      max_iter: 1000
+      random_state: 42
+    knn:
+      n_neighbors: 15
+    arbre_seul:
+      max_depth: 8
+      random_state: 42
+    svm_rbf:
+      C: 1.0
+      kernel: rbf
+      random_state: 42
+
+validation:
+  seuil_f1: 0.75
+
+registre:
+  nom_modele: medicament-generique
+  skops_trusted_types:
+    - sklearn.ensemble._hist_gradient_boosting.predictor.TreePredictor

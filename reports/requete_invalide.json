@@ -1,0 +1,1 @@
+{"dataframe_split": {"columns": ["ppv", "prix_br", "taux", "dosage_manquant", "dosage", "ratio_ph_ppv", "ratio_br_ppv", "log_ppv", "nb_par_dci", "ppv_relatif_dci"], "data": [[31.9, 31.9, 70.0, 0.0, 1.0, 0.6238244514106583, 1.0, 3.493472657771326, 31.0, 0.8394736842105263], [95.0, 95.0, 0.0, 0.0, 3000.0, 0.0, 1.0, 4.564348191467836, 5.0, 4.1036717062634995]]}}

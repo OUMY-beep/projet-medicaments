@@ -1,0 +1,4 @@
+name: medicaments-pipeline
+entry_points:
+  main:
+    command: "python pipeline.py"

@@ -1,0 +1,8 @@
+﻿.venv/
+mlflow.db
+mlartifacts/
+mlruns/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+TP-synthese-projet-medicaments*.pdf
